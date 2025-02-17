@@ -11,9 +11,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '723477ce-4e05-4e6e-a3c1-13bdf919a5cd'
-  imageRepository: 'dockerspringbootapp'
-  containerRegistry: 'myacrrepo131.azurecr.io'
+  dockerRegistryServiceConnection: '7aa624a8-d5f8-410c-8383-b2218b570702'
+  imageRepository: 'dockerspringbootapprol'
+  containerRegistry: 'myacrrepo781.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
